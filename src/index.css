@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*
+{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Winky Sans", sans-serif;
+  color : white;
+}
+#root
+{
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  gap : 20px;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h3{
+  margin : 10px 0;
+}
+h6{
+  margin : 5px 0;
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 14px;
+  line-height: 21px;
+  text-align : center;
+}
+.card-container
+{
+  background-color: rgb(67, 67, 67);
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75); 
+  padding-top: 30px;
+  width : 350px;
+  text-align: center;
+  position : relative;
+}
+
+.pro
+{
+  color : black;
+  background-color: rgb(79, 78, 70);
+  position : absolute;
+  top : 30px;
+  left : 30px;
+
+}
+.online
+{
+  background-color:gold ;
+}
+
+.offline
+{
+  background-color: greenyellow;
+}
+
+
+.img
+{
+  border : 3px solid white;
+  border-radius: 50%;
+  padding : 7px;
+  height : 100px;
+  width : 100px;
+  align-items: center;
+}
+
+
+.buttons
+{
+  display : flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button.messagebtn
+{
+  background-color: #0984e3;
+  border: 1px solid #0984e3;
+  border-radius: 3px;
+  color : white;
+  font-weight : 500;
+  padding : 10px 25px;
+}
+
+button.flwngbtn
+{
+  background-color: #0984e3;
+  border: 1px solid #0984e3;
+  border-radius: 3px;
+  color : white;
+  font-weight : 500;
+  padding : 10px 25px;
+}
+
+.skills
+{
+  background-color : #2f3640;
+  text-align: left;
+  padding : 15px;
+  margin-top: 30px;
+  color  : white;
+
+
+}
+.skills ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color : white;
+}
+.skills ul li{
+  border : 1px solid #595180;
+  display  :inline-block;
+  border-radius: 2px;
+  padding : 7px;
+  margin : 0 7px 7px 0;
+  font-size : 12px;
+}
